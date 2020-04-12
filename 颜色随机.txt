@@ -1,0 +1,5 @@
+function color1(){
+				var col=(16777215-000001)*Math.random()+0000001
+				col=parseInt(col);
+				return col.toString(16);
+			}
